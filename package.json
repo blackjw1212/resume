@@ -1,11 +1,11 @@
 {
-    "title": "Resume",
-    "name": "startbootstrap-resume",
+    "title": "Jia Wei Huang Resume",
+    "name": "blackjw1212-resume",
     "version": "5.0.8",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
     },
-    "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
+    "description": "Public resume and portfolio page for Jia Wei Huang.",
     "keywords": [
         "css",
         "sass",
@@ -14,19 +14,18 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/resume",
+    "homepage": "https://blackjw1212.github.io/resume/",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-resume/issues",
-        "email": "feedback@startbootstrap.com"
+        "url": "https://github.com/blackjw1212/resume/issues"
     },
     "license": "MIT",
-    "author": "Start Bootstrap",
+    "author": "Jia Wei Huang",
     "contributors": [
         "David Miller (http://davidmiller.io/)"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-resume.git"
+        "url": "https://github.com/blackjw1212/resume.git"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.10.2",
