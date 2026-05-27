@@ -3,170 +3,75 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="黃嘉偉 - 資深廠管工程師，專精於廠務維運、機電維修與 IoT 整合應用。">
   <meta name="author" content="Jia Wei Huang">
 
-  <link rel="icon" type="image/png" href="img/favicon.png">
-  <link rel="shortcut icon" href="img/favicon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="shortcut icon" href="img/favicon.ico">
 
   <title>黃嘉偉 | 資深廠管工程師 履歷</title>
 
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:400,700&display=swap" rel="stylesheet">
-  <link href="css/resume.min.css" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/2bd6cc97b1.js" crossorigin="anonymous"></script>
+  <link href="css/resume.css" rel="stylesheet">
+  <script src="js/resume.js" defer></script>
 </head>
 
 <body id="page-top">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">黃嘉偉的履歷</span>
-      <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="黃嘉偉 個人照">
+  <nav class="side-nav" id="sideNav" aria-label="履歷導覽">
+    <a class="brand-link" href="#page-top" aria-label="回到頁首">
+      <span class="brand-mobile" data-profile-name>黃嘉偉的履歷</span>
+      <span class="brand-desktop">
+        <img class="profile-image" src="img/profile.jpg" alt="黃嘉偉 個人照">
       </span>
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="切換導覽">
-      <span class="navbar-toggler-icon"></span>
+
+    <button class="nav-toggle" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="切換導覽">
+      <span class="nav-toggle-line"></span>
+      <span class="nav-toggle-line"></span>
+      <span class="nav-toggle-line"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">關於我</a></li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">工作經歷</a></li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">教育程度</a></li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">技能專長</a></li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">興趣愛好</a></li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">獎項認證</a></li>
+
+    <div class="nav-panel" id="navbarSupportedContent">
+      <ul class="nav-list">
+        <li><a class="nav-link" href="#about">關於我</a></li>
+        <li><a class="nav-link" href="#experience">工作經歷</a></li>
+        <li><a class="nav-link" href="#education">教育程度</a></li>
+        <li><a class="nav-link" href="#skills">技能專長</a></li>
+        <li><a class="nav-link" href="#interests">興趣愛好</a></li>
+        <li><a class="nav-link" href="#awards">獎項認證</a></li>
       </ul>
     </div>
   </nav>
 
-  <div class="container-fluid p-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-      <div class="w-100">
-        <h1 class="mb-0">黃 <span class="text-primary">嘉偉</span></h1>
-        <div class="subheading mb-5">JIA WEI HUANG · <a href="https://github.com/blackjw1212" target="_blank" rel="noopener noreferrer">github.com/blackjw1212</a></div>
-        <p class="lead mb-5">
-          深耕機電維護與廠務管理領域，目前於 <b>Gogoro (睿能創意)</b> 擔任資深廠管工程師。我擅長將專業技術知識轉化為實務解決方案，具備跨部門協調與現場領導能力。
-          <br><br>
-          在職涯中，我對塑膠成型工藝、精密組裝及自動化流程有深刻理解。我重視「持續改進」的工程精神，擅長在壓力下保持冷靜並找出系統瓶頸。除了專業維修，我亦積極探索 IoT 技術（如 ESP32 與 HomeKit 整合）於廠務監控的應用潛力，致力於透過科技手段提升運營效率與產品品質。
-        </p>
-        <div class="social-icons">
-          <a href="https://github.com/blackjw1212" target="_blank" title="GitHub 連結"><i class="fab fa-github"></i></a>
-        </div>
+  <main class="page-shell" id="resumeRoot">
+    <section class="resume-section hero-section" id="about" aria-labelledby="about-title">
+      <div class="section-inner" data-section="about">
+        <p class="loading-note">履歷資料載入中...</p>
       </div>
     </section>
 
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5" id="experience">
-      <div class="w-100">
-        <h2 class="mb-5">工作經歷</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Gogoro 睿能創意</h3>
-            <div class="subheading mb-3 text-primary">資深廠管工程師</div>
-            <p>負責區域廠務運維與設備資產管理，透過預防性維修計畫維持 95% 以上的設備妥善率。積極參與內部維修流程優化，並指導技術團隊達成 CS P2 標準作業規範。</p>
-          </div>
-          <div class="resume-date text-md-right"><span class="text-primary">2020-01 - 至今</span></div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">CT Engineering 建東精工</h3>
-            <div class="subheading mb-3 text-primary">裝配技術員</div>
-            <p>執行精密機械組裝與出廠調校。曾協助處理多起跨國維護案件之故障排除，確保設備符合國際客戶之生產標準。</p>
-          </div>
-          <div class="resume-date text-md-right"><span class="text-primary">2017-04 - 2019-03</span></div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">啟登通訊配件批發</h3>
-            <div class="subheading mb-3 text-primary">銷售業務 / 維修諮詢</div>
-            <p>負責產品通路拓展與 3C 硬體初步診斷。透過專業的技術背景提供客製化產品建議，提升客戶續約率。</p>
-          </div>
-          <div class="resume-date text-md-right"><span class="text-primary">2015-02 - 2016-09</span></div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">雙鏘實業有限公司</h3>
-            <div class="subheading mb-3 text-primary">真空成型技術員</div>
-            <p>負責生產線設備操作與模組架設，優化塑膠成型參數以減少 10% 的生產廢料。</p>
-          </div>
-          <div class="resume-date text-md-right"><span class="text-primary">2014-02 - 2014-09</span></div>
-        </div>
-      </div>
+    <section class="resume-section" id="experience" aria-labelledby="experience-title">
+      <div class="section-inner" data-section="experience"></div>
     </section>
 
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5" id="education">
-      <div class="w-100">
-        <h2 class="mb-5">教育程度</h2>
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">國立嘉義高級工業職業學校</h3>
-            <div class="subheading mb-3 text-primary">車輛塗裝科</div>
-            <div>掌握材料特性、精密塗裝與機械結構基礎知識。</div>
-          </div>
-          <div class="resume-date text-md-right"><span class="text-primary">2007-09 - 2010-06</span></div>
-        </div>
-      </div>
+    <section class="resume-section" id="education" aria-labelledby="education-title">
+      <div class="section-inner" data-section="education"></div>
     </section>
 
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5" id="skills">
-      <div class="w-100">
-        <h2 class="mb-5">技能專長</h2>
-        <div class="subheading mb-3">核心技術</div>
-        <ul class="list-inline dev-icons">
-          <li class="list-inline-item" title="車輛維修"><i class="fas fa-motorcycle"></i></li>
-          <li class="list-inline-item" title="機電硬體維護"><i class="fas fa-wrench"></i></li>
-          <li class="list-inline-item" title="IoT 整合應用"><i class="fas fa-microchip"></i></li>
-          <li class="list-inline-item" title="Windows 系統運作"><i class="fab fa-windows"></i></li>
-          <li class="list-inline-item" title="macOS 系統運作"><i class="fab fa-apple"></i></li>
-        </ul>
-        <div class="subheading mb-3">技術應用優勢</div>
-        <ul class="fa-ul mb-0">
-          <li><i class="fa-li fa fa-check text-success"></i> 具備機車電控、電腦硬體及手機之深度維修與診斷能力。</li>
-          <li><i class="fa-li fa fa-check text-success"></i> 熟練運用 ESP32 / HomeSpan 進行輕量化廠房監控系統原型開發。</li>
-          <li><i class="fa-li fa fa-check text-success"></i> 擅長獨立分析設備故障原因並建立標準作業程序 (SOP)。</li>
-        </ul>
-      </div>
+    <section class="resume-section" id="skills" aria-labelledby="skills-title">
+      <div class="section-inner" data-section="skills"></div>
     </section>
 
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5" id="interests">
-      <div class="w-100">
-        <h2 class="mb-5">興趣愛好</h2>
-        <p>在工作之餘，我熱愛戶外活動與科技探索。夏季時常騎乘登山車挑戰山林步道，這訓練了我在高壓環境下的體力與韌性。同時，我是一名 3C 科技發燒友，花費大量時間研究物聯網技術與開源硬體，嘗試將智慧化思維導入日常生活中。</p>
-      </div>
+    <section class="resume-section" id="interests" aria-labelledby="interests-title">
+      <div class="section-inner" data-section="interests"></div>
     </section>
 
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5" id="awards">
-      <div class="w-100">
-        <h2 class="mb-5">獎項 &amp; 認證</h2>
-        <ul class="fa-ul mb-0">
-          <li><i class="fa-li fa fa-trophy text-warning"></i> 機器腳踏車修護 - 丙級 (中華民國技術士證)</li>
-          <li><i class="fa-li fa fa-trophy text-warning"></i> 車輛塗裝 - 丙級 (中華民國技術士證)</li>
-          <li><i class="fa-li fa fa-certificate text-info"></i> Gogoro CS P2 進階維修認證</li>
-        </ul>
-      </div>
+    <section class="resume-section" id="awards" aria-labelledby="awards-title">
+      <div class="section-inner" data-section="awards"></div>
     </section>
-  </div>
-
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-  <script src="js/resume.min.js"></script>
+  </main>
 </body>
 
 </html>

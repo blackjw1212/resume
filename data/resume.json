@@ -1,0 +1,130 @@
+{
+  "profile": {
+    "name": {
+      "family": "黃",
+      "given": "嘉偉",
+      "display": "黃嘉偉",
+      "english": "JIA WEI HUANG"
+    },
+    "title": "資深廠管工程師",
+    "pageTitle": "黃嘉偉 | 資深廠管工程師 履歷",
+    "description": "黃嘉偉 - 資深廠管工程師，專精於廠務維運、機電維修與 IoT 整合應用。",
+    "image": "img/profile.jpg",
+    "links": [
+      {
+        "label": "github.com/blackjw1212",
+        "href": "https://github.com/blackjw1212",
+        "type": "github"
+      }
+    ]
+  },
+  "sections": {
+    "about": {
+      "id": "about",
+      "title": "關於我",
+      "paragraphs": [
+        "深耕機電維護與廠務管理領域，目前於 Gogoro (睿能創意) 擔任資深廠管工程師。我擅長將專業技術知識轉化為實務解決方案，具備跨部門協調與現場領導能力。",
+        "在職涯中，我對塑膠成型工藝、精密組裝及自動化流程有深刻理解。我重視「持續改進」的工程精神，擅長在壓力下保持冷靜並找出系統瓶頸。除了專業維修，我亦積極探索 IoT 技術（如 ESP32 與 HomeKit 整合）於廠務監控的應用潛力，致力於透過科技手段提升運營效率與產品品質。"
+      ]
+    },
+    "experience": {
+      "id": "experience",
+      "title": "工作經歷",
+      "items": [
+        {
+          "organization": "Gogoro 睿能創意",
+          "role": "資深廠管工程師",
+          "period": "2020-01 - 至今",
+          "description": "負責區域廠務運維與設備資產管理，透過預防性維修計畫維持 95% 以上的設備妥善率。積極參與內部維修流程優化，並指導技術團隊達成 CS P2 標準作業規範。"
+        },
+        {
+          "organization": "CT Engineering 建東精工",
+          "role": "裝配技術員",
+          "period": "2017-04 - 2019-03",
+          "description": "執行精密機械組裝與出廠調校。曾協助處理多起跨國維護案件之故障排除，確保設備符合國際客戶之生產標準。"
+        },
+        {
+          "organization": "啟登通訊配件批發",
+          "role": "銷售業務 / 維修諮詢",
+          "period": "2015-02 - 2016-09",
+          "description": "負責產品通路拓展與 3C 硬體初步診斷。透過專業的技術背景提供客製化產品建議，提升客戶續約率。"
+        },
+        {
+          "organization": "雙鏘實業有限公司",
+          "role": "真空成型技術員",
+          "period": "2014-02 - 2014-09",
+          "description": "負責生產線設備操作與模組架設，優化塑膠成型參數以減少 10% 的生產廢料。"
+        }
+      ]
+    },
+    "education": {
+      "id": "education",
+      "title": "教育程度",
+      "items": [
+        {
+          "organization": "國立嘉義高級工業職業學校",
+          "role": "車輛塗裝科",
+          "period": "2007-09 - 2010-06",
+          "description": "掌握材料特性、精密塗裝與機械結構基礎知識。"
+        }
+      ]
+    },
+    "skills": {
+      "id": "skills",
+      "title": "技能專長",
+      "groups": [
+        {
+          "title": "核心技術",
+          "type": "icons",
+          "items": [
+            {
+              "label": "車輛維修",
+              "icon": "vehicle"
+            },
+            {
+              "label": "機電硬體維護",
+              "icon": "wrench"
+            },
+            {
+              "label": "IoT 整合應用",
+              "icon": "iot"
+            },
+            {
+              "label": "Windows 系統運作",
+              "icon": "windows"
+            },
+            {
+              "label": "macOS 系統運作",
+              "icon": "macos"
+            }
+          ]
+        },
+        {
+          "title": "技術應用優勢",
+          "type": "list",
+          "items": [
+            "具備機車電控、電腦硬體及手機之深度維修與診斷能力。",
+            "熟練運用 ESP32 / HomeSpan 進行輕量化廠房監控系統原型開發。",
+            "擅長獨立分析設備故障原因並建立標準作業程序 (SOP)。"
+          ]
+        }
+      ]
+    },
+    "interests": {
+      "id": "interests",
+      "title": "興趣愛好",
+      "paragraphs": [
+        "在工作之餘，我熱愛戶外活動與科技探索。夏季時常騎乘登山車挑戰山林步道，這訓練了我在高壓環境下的體力與韌性。同時，我是一名 3C 科技發燒友，花費大量時間研究物聯網技術與開源硬體，嘗試將智慧化思維導入日常生活中。"
+      ]
+    },
+    "awards": {
+      "id": "awards",
+      "title": "獎項 & 認證",
+      "items": [
+        "機器腳踏車修護 - 丙級 (中華民國技術士證)",
+        "車輛塗裝 - 丙級 (中華民國技術士證)",
+        "Gogoro CS P2 進階維修認證"
+      ]
+    }
+  }
+}
